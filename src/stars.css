@@ -1,18 +1,18 @@
 .stars {
   display: flex;
-  padding: 1px 0;
+  padding: 1.5px;
 }
 
 .stars__star {
-  width: 14px;
-  height: 14px;
+  width: 13px;
+  height: 13px;
   background-image: url('./images/star.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .stars__star:not(:last-child) {
-  margin-right: 3px;
+  margin-right: 7px;
 }
 
 .stars--1 .stars__star:nth-child(-n + 1),
